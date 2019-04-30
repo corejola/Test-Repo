@@ -47,7 +47,7 @@ var currentTime = moment();
 console.log("CURRENT TIME: " + moment(currentTime).format("hh:mm"));
 
 // Difference between the times
-var diffTime = moment().diff(moment(firstTimeConverted), "minutes");
+var diffTime = currentTime.diff(firstTimeConverted, "minutes");
 console.log("DIFFERENCE IN TIME: " + diffTime);
 
 var diffTime = currentTime.diff(firstTimeConverted, "minutes");
